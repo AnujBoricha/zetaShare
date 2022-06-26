@@ -2,6 +2,7 @@
     --main-bg-color: #edf5fe;
     --light-blue: #03a9f4;
     --dark-blue: #028bca;
+    --clr: #222327;
   }
 
   body {
@@ -14,24 +15,26 @@
     justify-content: center;
     color: #333;
   }
+  
 
   .logo {
     position: absolute;
     top: 10px;
-    left: 10px;
-    width: 150px;
+    left: -90px;
+    width: 450px;
   }
 section.download {
-    background: #fff;
+    background: rgb(173, 171, 171);
     width: 430px;
-    max-width: 90%;
+    max-width: 96%;
     border-radius: 25px;
     box-shadow: 0px 20px 20px 0px #00000017;
     padding: 2rem;
     text-align: center;
 }
 .download__icon {
-    height: 8rem;
+    height: 10rem;
+    
 }
 .download__meta h4 {
     margin-bottom: 0;
@@ -54,3 +57,11 @@ section.download {
   .send-btn-container a:hover {
       background: var(--dark-blue);
   }
+
+ *{
+    margin: 0;
+    padding : 0;
+    box-sizing : border-box;
+
+  }
+
